@@ -8,6 +8,9 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/a25x/proprietary/recovery/root/vendor/firmware/ft3519_a25x.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/ft3519_a25x.bin \
     vendor/samsung/a25x/proprietary/recovery/root/vendor/firmware/gt9895_a25x.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9895_a25x.bin \
+    vendor/samsung/a25x/proprietary/vendor/etc/init/hermesd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hermesd.rc \
+    vendor/samsung/a25x/proprietary/vendor/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc \
+    vendor/samsung/a25x/proprietary/vendor/etc/init/vendor.samsung.hardware.security.hermes.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.hermes.rc \
     vendor/samsung/a25x/proprietary/vendor/etc/wifi/mx140_bt.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_bt.hcf \
     vendor/samsung/a25x/proprietary/vendor/etc/wifi/mx140_common.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_common.hcf \
     vendor/samsung/a25x/proprietary/vendor/etc/wifi/mx140_t_wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t_wlan.hcf \
@@ -110,14 +113,31 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a25x/proprietary/vendor_ramdisk/vendor/firmware/gt9895_a25x.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/gt9895_a25x.bin
 
 PRODUCT_PACKAGES += \
+    lib_native_client.dk.samsung \
+    libhermes \
+    vendor.samsung.hardware.security.drk@2.0 \
     libswdap \
+    vendor.samsung.hardware.security.drk-V1-ndk \
+    libdk_vnd_service_core \
     libexynoscamera3 \
+    libhermes_bdbridge \
+    libhermes_cred \
+    libhermes_jni \
+    libhwvault \
+    libisosechw \
+    libshctrl \
     libskeymint10device \
     libskeymint_cli \
     libstork_shared \
     libvkservice \
+    vendor.samsung.hardware.security.drk-V1-ndk_platform \
+    vendor.samsung.hardware.security.hermes-V1-ndk_platform \
     vendor.samsung.hardware.security.vaultkeeper-V1-ndk_platform \
+    vendor.samsung.hardware.security.hermes.xml \
     vendor.samsung.hardware.security.vaultkeeper-manifest.xml \
+    hermesd \
     android.hardware.security.keymint-service.samsung \
+    vendor.samsung.hardware.security.drk@2.0-service \
+    vendor.samsung.hardware.security.hermes-service \
     vaultkeeperd \
     vendor.samsung.hardware.security.vaultkeeper-service
