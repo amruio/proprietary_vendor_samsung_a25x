@@ -112,9 +112,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libswdap \
     libexynoscamera3 \
+    libskeymint10device \
+    libskeymint_cli \
     libstork_shared \
     libvkservice \
     vendor.samsung.hardware.security.vaultkeeper-V1-ndk_platform \
     vendor.samsung.hardware.security.vaultkeeper-manifest.xml \
+    android.hardware.security.keymint-service.samsung \
     vaultkeeperd \
     vendor.samsung.hardware.security.vaultkeeper-service
