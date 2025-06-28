@@ -111,10 +111,18 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libswdap \
+    camera.s5e8825 \
+    libMERTA \
     libexynoscamera3 \
+    libexynoscamera_merta_plugin \
+    libexynoscamera_swlme_plugin \
+    libexynoscamera_vpl_plugin \
+    liblmecpu \
+    libsec2lsi_conversion \
     libskeymint10device \
     libskeymint_cli \
     libstork_shared \
+    libswlme \
     libvkservice \
     vendor.samsung.hardware.security.vaultkeeper-V1-ndk_platform \
     vendor.samsung.hardware.security.vaultkeeper-manifest.xml \
