@@ -8,6 +8,11 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/a25x/proprietary/recovery/root/vendor/firmware/ft3519_a25x.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/ft3519_a25x.bin \
     vendor/samsung/a25x/proprietary/recovery/root/vendor/firmware/gt9895_a25x.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9895_a25x.bin \
+    vendor/samsung/a25x/proprietary/vendor/etc/init/hermesd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hermesd.rc \
+    vendor/samsung/a25x/proprietary/vendor/etc/init/vendor.samsung.hardware.security.hermes.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.hermes.rc \
+    vendor/samsung/a25x/proprietary/vendor/etc/secnvm/k250a_41000001_1.img:$(TARGET_COPY_OUT_VENDOR)/etc/secnvm/k250a_41000001_1.img \
+    vendor/samsung/a25x/proprietary/vendor/etc/secnvm/k250a_41000003_0.img:$(TARGET_COPY_OUT_VENDOR)/etc/secnvm/k250a_41000003_0.img \
+    vendor/samsung/a25x/proprietary/vendor/etc/secnvm/k250a_41000005_c.img:$(TARGET_COPY_OUT_VENDOR)/etc/secnvm/k250a_41000005_c.img \
     vendor/samsung/a25x/proprietary/vendor/etc/wifi/mx140_bt.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_bt.hcf \
     vendor/samsung/a25x/proprietary/vendor/etc/wifi/mx140_common.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_common.hcf \
     vendor/samsung/a25x/proprietary/vendor/etc/wifi/mx140_t_wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t_wlan.hcf \
@@ -110,22 +115,35 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a25x/proprietary/vendor_ramdisk/vendor/firmware/gt9895_a25x.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/gt9895_a25x.bin
 
 PRODUCT_PACKAGES += \
+    libhermes \
     libswdap \
+    android.hardware.weaver@1.0 \
     camera.s5e8825 \
     libMERTA \
     libexynoscamera3 \
     libexynoscamera_merta_plugin \
     libexynoscamera_swlme_plugin \
     libexynoscamera_vpl_plugin \
+    libhermes_bdbridge \
+    libhwvault \
+    libisosechw \
     liblmecpu \
     libsec2lsi_conversion \
+    libshctrl \
     libskeymint10device \
     libskeymint_cli \
     libstork_shared \
     libswlme \
     libvkservice \
+    vendor.samsung.hardware.security.drk-V1-ndk_platform \
+    vendor.samsung.hardware.security.drk@2.0 \
+    vendor.samsung.hardware.security.hermes-V1-ndk_platform \
     vendor.samsung.hardware.security.vaultkeeper-V1-ndk_platform \
+    iweaver_v1_manifest.xml \
+    vendor.samsung.hardware.security.hermes.xml \
     vendor.samsung.hardware.security.vaultkeeper-manifest.xml \
+    hermesd \
     android.hardware.security.keymint-service.samsung \
+    vendor.samsung.hardware.security.hermes-service \
     vaultkeeperd \
     vendor.samsung.hardware.security.vaultkeeper-service
