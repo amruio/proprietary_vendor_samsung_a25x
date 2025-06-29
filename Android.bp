@@ -91,7 +91,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.weaver@1.0",
+    name: "android.weaver@1.0",
     owner: "samsung",
     strip: {
         none: true,
@@ -99,7 +99,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/android.hardware.weaver@1.0.so",
+                "proprietary/vendor/lib64/android.weaver@1.0.so",
             ],
             shared_libs: [
                 "libhidlbase",

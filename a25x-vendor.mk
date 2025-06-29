@@ -117,7 +117,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libhermes \
     libswdap \
-    android.hardware.weaver@1.0 \
+    android.weaver@1.0 \
     camera.s5e8825 \
     libMERTA \
     libexynoscamera3 \
