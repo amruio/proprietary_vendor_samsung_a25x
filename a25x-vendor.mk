@@ -115,6 +115,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a25x/proprietary/vendor_ramdisk/vendor/firmware/gt9895_a25x.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/gt9895_a25x.bin
 
 PRODUCT_PACKAGES += \
+    libbauthserver \
+    libbauthtzcommon \
     libhermes \
     libswdap \
     android.weaver@1.0 \
