@@ -10,6 +10,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a25x/proprietary/recovery/root/vendor/firmware/gt9895_a25x.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9895_a25x.bin \
     vendor/samsung/a25x/proprietary/vendor/etc/init/hermesd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hermesd.rc \
     vendor/samsung/a25x/proprietary/vendor/etc/init/vendor.samsung.hardware.security.hermes.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.hermes.rc \
+    vendor/samsung/a25x/proprietary/vendor/etc/nfc/st21nfc_conf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/st21nfc_conf.txt \
     vendor/samsung/a25x/proprietary/vendor/etc/secnvm/k250a_41000001_1.img:$(TARGET_COPY_OUT_VENDOR)/etc/secnvm/k250a_41000001_1.img \
     vendor/samsung/a25x/proprietary/vendor/etc/secnvm/k250a_41000003_0.img:$(TARGET_COPY_OUT_VENDOR)/etc/secnvm/k250a_41000003_0.img \
     vendor/samsung/a25x/proprietary/vendor/etc/secnvm/k250a_41000005_c.img:$(TARGET_COPY_OUT_VENDOR)/etc/secnvm/k250a_41000005_c.img \
@@ -137,6 +138,7 @@ PRODUCT_PACKAGES += \
     libstork_shared \
     libswlme \
     libvkservice \
+    nfc_nci.st21nfc.st \
     vendor.samsung.hardware.security.drk-V1-ndk_platform \
     vendor.samsung.hardware.security.drk@2.0 \
     vendor.samsung.hardware.security.hermes-V1-ndk_platform \
