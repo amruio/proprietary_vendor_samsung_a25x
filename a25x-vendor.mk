@@ -119,7 +119,6 @@ PRODUCT_PACKAGES += \
     libbauthserver \
     libbauthtzcommon \
     libhermes \
-    libswdap \
     android.weaver@1.0 \
     camera.s5e8825 \
     libMERTA \
