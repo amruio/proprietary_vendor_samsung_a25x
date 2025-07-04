@@ -8,6 +8,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/a25x/proprietary/recovery/root/vendor/firmware/ft3519_a25x.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/ft3519_a25x.bin \
     vendor/samsung/a25x/proprietary/recovery/root/vendor/firmware/gt9895_a25x.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9895_a25x.bin \
+    vendor/samsung/a25x/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/a25x/proprietary/vendor/etc/init/hermesd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hermesd.rc \
     vendor/samsung/a25x/proprietary/vendor/etc/init/vendor.samsung.hardware.security.hermes.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.hermes.rc \
     vendor/samsung/a25x/proprietary/vendor/etc/nfc/st21nfc_conf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/st21nfc_conf.txt \
