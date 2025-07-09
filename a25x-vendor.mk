@@ -117,12 +117,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a25x/proprietary/vendor_ramdisk/vendor/firmware/gt9895_a25x.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/gt9895_a25x.bin
 
 PRODUCT_PACKAGES += \
-    libbauthserver \
-    libbauthtzcommon \
     libhermes \
     android.weaver@1.0 \
     camera.s5e8825 \
     libMERTA \
+    libbauthserver \
+    libbauthtzcommon \
     libexynoscamera3 \
     libexynoscamera_merta_plugin \
     libexynoscamera_swlme_plugin \
