@@ -195,7 +195,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a25x/proprietary/vendor_ramdisk/vendor/firmware/gt9895_a25x.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/gt9895_a25x.bin
 
 PRODUCT_PACKAGES += \
-    libhermes \
     android.weaver@1.0 \
     camera.s5e8825 \
     libMERTA \
@@ -205,6 +204,7 @@ PRODUCT_PACKAGES += \
     libexynoscamera_merta_plugin \
     libexynoscamera_swlme_plugin \
     libexynoscamera_vpl_plugin \
+    libhermes \
     libhermes_bdbridge \
     libhwvault \
     libisosechw \
