@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a25x/proprietary/vendor/etc/wifi/mx140_wlan_t_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_wlan_t_sw.hcf \
     vendor/samsung/a25x/proprietary/vendor/etc/wifi/slsi_reg_database.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/slsi_reg_database.bin \
     vendor/samsung/a25x/proprietary/vendor/firmware/APBargeIn_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBargeIn_AUDIO_SLSI.bin \
+    vendor/samsung/a25x/proprietary/vendor/firmware/APBiBF_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBiBF_AUDIO_SLSI.bin \
     vendor/samsung/a25x/proprietary/vendor/firmware/SM-A2560/APDV_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SM-A2560/APDV_AUDIO_SLSI.bin \
     vendor/samsung/a25x/proprietary/vendor/firmware/SM-A2560/AP_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SM-A2560/AP_AUDIO_SLSI.bin \
     vendor/samsung/a25x/proprietary/vendor/firmware/SM-A2560/NPU.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SM-A2560/NPU.bin \
