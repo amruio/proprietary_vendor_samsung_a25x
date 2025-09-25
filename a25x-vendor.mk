@@ -214,19 +214,13 @@ PRODUCT_PACKAGES += \
     libshctrl \
     libskeymint10device \
     libskeymint_cli \
-    libstork_shared \
     libswlme \
-    libvkservice \
     nfc_nci.st21nfc.st \
     vendor.samsung.hardware.security.drk-V1-ndk_platform \
     vendor.samsung.hardware.security.drk@2.0 \
     vendor.samsung.hardware.security.hermes-V1-ndk_platform \
-    vendor.samsung.hardware.security.vaultkeeper-V1-ndk_platform \
     iweaver_v1_manifest.xml \
     vendor.samsung.hardware.security.hermes.xml \
-    vendor.samsung.hardware.security.vaultkeeper-manifest.xml \
     hermesd \
     android.hardware.security.keymint-service.samsung \
-    vendor.samsung.hardware.security.hermes-service \
-    vaultkeeperd \
-    vendor.samsung.hardware.security.vaultkeeper-service
+    vendor.samsung.hardware.security.hermes-service
