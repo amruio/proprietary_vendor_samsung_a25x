@@ -9,12 +9,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a25x/proprietary/recovery/root/vendor/firmware/ft3519_a25x.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/ft3519_a25x.bin \
     vendor/samsung/a25x/proprietary/recovery/root/vendor/firmware/gt9895_a25x.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9895_a25x.bin \
     vendor/samsung/a25x/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
-    vendor/samsung/a25x/proprietary/vendor/etc/init/hermesd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hermesd.rc \
-    vendor/samsung/a25x/proprietary/vendor/etc/init/vendor.samsung.hardware.security.hermes.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.hermes.rc \
     vendor/samsung/a25x/proprietary/vendor/etc/nfc/st21nfc_conf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/st21nfc_conf.txt \
-    vendor/samsung/a25x/proprietary/vendor/etc/secnvm/k250a_41000001_1.img:$(TARGET_COPY_OUT_VENDOR)/etc/secnvm/k250a_41000001_1.img \
-    vendor/samsung/a25x/proprietary/vendor/etc/secnvm/k250a_41000003_0.img:$(TARGET_COPY_OUT_VENDOR)/etc/secnvm/k250a_41000003_0.img \
-    vendor/samsung/a25x/proprietary/vendor/etc/secnvm/k250a_41000006_c.img:$(TARGET_COPY_OUT_VENDOR)/etc/secnvm/k250a_41000006_c.img \
     vendor/samsung/a25x/proprietary/vendor/firmware/APBargeIn_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBargeIn_AUDIO_SLSI.bin \
     vendor/samsung/a25x/proprietary/vendor/firmware/APBiBF_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBiBF_AUDIO_SLSI.bin \
     vendor/samsung/a25x/proprietary/vendor/firmware/APDV_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APDV_AUDIO_SLSI.bin \
@@ -203,7 +198,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a25x/proprietary/vendor_ramdisk/vendor/firmware/gt9895_a25x.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/gt9895_a25x.bin
 
 PRODUCT_PACKAGES += \
-    android.weaver@1.0 \
     camera.s5e8825 \
     libMERTA \
     libbauthserver \
@@ -212,19 +206,7 @@ PRODUCT_PACKAGES += \
     libexynoscamera_merta_plugin \
     libexynoscamera_swlme_plugin \
     libexynoscamera_vpl_plugin \
-    libhermes \
-    libhermes_bdbridge \
-    libhwvault \
-    libisosechw \
     liblmecpu \
     libsec2lsi_conversion \
-    libshctrl \
     libswlme \
-    nfc_nci.st21nfc.st \
-    vendor.samsung.hardware.security.drk-V1-ndk_platform \
-    vendor.samsung.hardware.security.drk@2.0 \
-    vendor.samsung.hardware.security.hermes-V1-ndk_platform \
-    iweaver_v1_manifest.xml \
-    vendor.samsung.hardware.security.hermes.xml \
-    hermesd \
-    vendor.samsung.hardware.security.hermes-service
+    nfc_nci.st21nfc.st
