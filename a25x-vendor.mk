@@ -210,3 +210,6 @@ PRODUCT_PACKAGES += \
     libsec2lsi_conversion \
     libswlme \
     nfc_nci.st21nfc.st
+    libskeymint10device \
+    libskeymint_cli \
+    android.hardware.security.keymint-service.samsung \
